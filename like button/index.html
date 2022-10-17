@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>React Test Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="shortcut icon" type="x-icon" href="j.png">
+  </head>
+  <body>
+    <div class="heart-btn">
+      <div class="content">
+        <span class="heart"></span>
+        <span class="text">Like</span>
+        <span class="numb"></span>
+      </div>
+    </div>
+
+    <script>
+      $(Document).ready(function(){
+        $('.content').click(function(){
+          $('.content').toggleClass("heart-active")
+          $('.text').toggleClass("heart-active")
+          $('.numb').toggleClass("heart-active")
+          $('.heart').toggleClass("heart-active")
+        });
+      });
+    </script>
+    <div class="hero">
+      <nav>
+        <h2 class="logo">Viduneth<span> Mandil </span></h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="https://mandilweb.netlify.app/">Website 1</a></li>
+          <li><a href="https://vidunethmandil.netlify.app/">Website 2</a></li>
+        </ul>
+        <button type="button" onclick="location.href=''">Contact</button>
+      </nav>
+    </div>
+    <a href="#home" class="top">
+      <img src="scroll-top-img.png" alt="">
+  </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- jquery cdn link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <!-- custom js file link  -->
+  <script src="script.js"></script>
+  
+  </body>
+</html>
